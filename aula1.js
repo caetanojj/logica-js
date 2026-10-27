@@ -30,5 +30,18 @@ if(numero1 > numero2 && numero1 > numero3) {
 }
 */
 
-//---------------QUESTÃO 2---------------//
+//---------------QUESTÃO 3---------------//
 
+let n = Number(prompt("Digite um número N: "));
+
+for (let i = 1; i <= n; i++) {
+    if (i % 3 === 0 && i % 5 === 0) {
+        console.log("FizzBuzz");
+    } else if (i % 3 === 0) {
+        console.log("Fizz");
+    } else if (i % 5 === 0) {
+        console.log("Buzz");
+    } else {
+        console.log(i);
+    }
+}
