@@ -48,6 +48,7 @@ for (let i = 1; i <= n; i++) {
 */
 
 //---------------QUESTÃO 4---------------//
+/*
 let n = Number(prompt("Digite um número N: "));
 
 let soma = 0;
@@ -59,3 +60,17 @@ while (i <= n) {
 }
 
 console.log("A soma dos números de 1 a " + n + " é: " + soma);
+*/
+
+//---------------QUESTÃO 5---------------//
+/*
+let letras = [], vogais = 0
+
+for ( let i = 0; i < 5; i++) {
+    letras[i] = prompt("Digite uma letra: ");
+    if (letras[i].toLowerCase() === 'a' || letras[i].toLowerCase() === 'e' || letras[i].toLowerCase() === 'i' || letras[i].toLowerCase() === 'o' || letras[i].toLowerCase() === 'u') {
+        vogais++;
+    }
+}
+console.log("O número de vogais digitadas é: " + vogais);
+*/
