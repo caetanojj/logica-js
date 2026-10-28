@@ -31,7 +31,7 @@ if(numero1 > numero2 && numero1 > numero3) {
 */
 
 //---------------QUESTÃO 3---------------//
-
+/*
 let n = Number(prompt("Digite um número N: "));
 
 for (let i = 1; i <= n; i++) {
@@ -45,3 +45,17 @@ for (let i = 1; i <= n; i++) {
         console.log(i);
     }
 }
+*/
+
+//---------------QUESTÃO 4---------------//
+let n = Number(prompt("Digite um número N: "));
+
+let soma = 0;
+let i = 1;
+
+while (i <= n) {
+    soma = soma + i;
+    i++;
+}
+
+console.log("A soma dos números de 1 a " + n + " é: " + soma);
