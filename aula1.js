@@ -74,3 +74,21 @@ for ( let i = 0; i < 5; i++) {
 }
 console.log("O número de vogais digitadas é: " + vogais);
 */
+
+//---------------QUESTÃO 6---------------//
+
+let notas = [], soma = 0, aprovados = 0
+
+for ( let i = 0; i < 6; i++) {
+    notas[i] = parseFloat(prompt("Digite a nota " + (i + 1) + ": "));
+    soma = soma + notas[i];
+}
+let media = soma / 6;
+
+for ( let i = 0; i < 6; i++) {
+    if (notas[i] >= media) {
+        aprovados++;
+    }
+}
+console.log("A média das notas é: " + media);
+console.log("O número de alunos aprovados é: " + aprovados);
