@@ -16,13 +16,12 @@ console.log(`O cálculo da área é: ${area}`)
 //---------------EXERCÍCIO 3---------------//
 function verificarParOuImpar(numero) {
     if(numero%2 === 0) {
-        console.log(`O número ${numero} é par`)
-    } else {
-        console.log(`O número ${numero} é ímpar`)
+        return "Par"
     }
+    return "Ímpar"
 }
-verificarParOuImpar(4)
-verificarParOuImpar(7)
+console.log(verificarParOuImpar(4))
+console.log(verificarParOuImpar(7))
 
 //---------------EXERCÍCIO 4---------------//
 // ANALÍSE O CÓDIGO ABAIXO E RESPONDA: QUAL SERÁ A SAÍDA NO CONSOLE? EXPLIQUE O MOTIVO.
