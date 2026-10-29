@@ -31,10 +31,23 @@ somar(3,5,7)
 */
 
 //-------------SAUDAÇÃO COM PARÂMETROS UTILIZANDO RETURN-------------//
-
+/*
 function somar(a, b) {
     return a + b;
 }
 
 let resultado = somar(3, 5);
 console.log(`O resultado da soma é: ${resultado}`);
+*/
+
+//-------------FUNÇÃO PARA VERIFICAR IDADE-------------//
+
+function verificarIdade(idade) {
+    if(idade<0) {
+        return "Idade inválida";
+    }  
+    return "Idade válida"
+}
+
+console.log(verificarIdade(-5)) // Idade inválida
+console.log(verificarIdade(20)) // Idade válida
