@@ -41,7 +41,7 @@ console.log(`O resultado da soma é: ${resultado}`);
 */
 
 //-------------FUNÇÃO PARA VERIFICAR IDADE-------------//
-
+/*
 function verificarIdade(idade) {
     if(idade<0) {
         return "Idade inválida";
@@ -51,3 +51,14 @@ function verificarIdade(idade) {
 
 console.log(verificarIdade(-5)) // Idade inválida
 console.log(verificarIdade(20)) // Idade válida
+*/
+
+//-------------EXPLICAÇÃO ESCOPOS DE VARIÁVEIS-------------//
+
+function exemplo() {
+    let mensagem = "Olá, mundo!"
+    console.log(mensagem)
+}
+
+exemplo()
+console.log(mensagem)
