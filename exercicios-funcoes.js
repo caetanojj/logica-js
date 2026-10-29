@@ -28,7 +28,7 @@ verificarParOuImpar(7)
 // ANALÍSE O CÓDIGO ABAIXO E RESPONDA: QUAL SERÁ A SAÍDA NO CONSOLE? EXPLIQUE O MOTIVO.
 let mensagem = "Global"
 function teste() {
-    let mensagem = Local
+    let mensagem = "Local"
     console.log(mensagem)
 }
 teste()
