@@ -8,10 +8,10 @@ apresentar(); apresentar()
 
 //---------------EXERCÍCIO 2---------------//
 function calcularAreaRetangulo(base, altura) {
-    console.log(`O cálculo de área de ${base} e ${altura} é: ${base * altura}`)
+    return base * altura
 }
-
-calcularAreaRetangulo(5, 3)
+let area = calcularAreaRetangulo(5,3)
+console.log(`O cálculo da área é: ${area}`)
 
 //---------------EXERCÍCIO 3---------------//
 function verificarParOuImpar(numero) {
