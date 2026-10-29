@@ -54,11 +54,24 @@ console.log(verificarIdade(20)) // Idade válida
 */
 
 //-------------EXPLICAÇÃO ESCOPOS DE VARIÁVEIS-------------//
-
+/*
 function exemplo() {
-    let mensagem = "Olá, mundo!"
+    let mensagem = "Olá, mundo!"    // DO ESCOPO É LOCAL DIFERENTE DE UMA VARIÁVEL GLOBAL
     console.log(mensagem)
 }
 
 exemplo()
 console.log(mensagem)
+*/
+
+//-------------EXPLICAÇÃO ESCOPOS DE VARIÁVEIS COM MESMO NOME-------------//
+/*
+let nome = "Global"
+
+function mostrar() {
+    console.log(nome)
+}
+
+mostrar()
+console.log(nome)
+*/
